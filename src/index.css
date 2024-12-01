@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bookingSlotsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.bookingSlot {
+  cursor: pointer;
+  border: black 1px solid;
+  width: 20rem;
+}
+
+.selected {
+  background: orange;
+}
+
+.available {
+  background: #5dbcec;
+}
+
+.booked {
+  background: green;
+  cursor: default;
+}
+
+.unavailable {
+  background: red;
+  cursor: default;
+}
+
+.selectionWrapper {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.bookedSlotsWrapper {
+  width: 100%;
+  margin-bottom: 2rem;
+}
